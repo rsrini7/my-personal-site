@@ -12,8 +12,8 @@ pygmentsCodeFences = true
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "rsrini7"
-  avatarUrl = ""
+  avatar = ""
+  avatarUrl = "https://en.gravatar.com/userimage/103492187/f22df93c03424d2cdb953a5ac2c25ac7.jpeg"
   author = "Srini"
   description = "A site for me"
   about = """
@@ -38,11 +38,6 @@ pygmentsCodeFences = true
   weight = 100
   identifier = "blog"
   url = "/blog/"
-[[menu.main]]  
-  name = "talks"
-  identifier = "talks"
-  weight = 200
-  url = "/talks/"
 [[menu.main]]
   name = "projects"
   identifier = "projects"
@@ -52,4 +47,4 @@ pygmentsCodeFences = true
   name = "resume"
   identifier = "resume"
   weight = 400
-  url = "https://github.com/rsrini7/resume/raw/master/Srinivasan_Ragothaman_Resume.pdf"
+  url = "/resume/srinivasan_ragothaman_resume.pdf"
