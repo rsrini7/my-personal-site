@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: kishaningithub/my-personal-site
-  base_url: https://oauth.kishanbsh.me
+  repo: rsrini7/my-personal-site
+  base_url: https://oauth.rsrini7.me
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads" 
 publish_mode: editorial_workflow

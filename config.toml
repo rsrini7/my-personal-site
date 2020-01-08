@@ -1,8 +1,8 @@
-baseurl = "https://kishaningithub.github.io/"
+baseurl = "https://rsrini7.github.io/"
 languageCode = "en-US"
-title = "Kishan B"
+title = "Srini"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "kishanbsh"
+disqusShortname = "rsrini7-1"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 theme = "hugo-sustain"
@@ -12,12 +12,12 @@ pygmentsCodeFences = true
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = ""
-  avatarUrl = "https://res.cloudinary.com/kishanb/image/upload/w_200,h_200,r_max/v1450891432/image_n1gg4p.png"
-  author = "Kishan B"
-  description = "A site for myself"
+  avatar = "rsrini7"
+  avatarUrl = ""
+  author = "Srini"
+  description = "A site for me"
   about = """
-        <h3>Kishan is a self-motivated developer, who specializes in enterprise applications and systems.</h3>
+        <h3>Srini is a passionate developer, who specializes in enterprise applications and systems.</h3>
         <h3>He is also an active contributor and a strong advocate for Open source software.</h3>
      """
 
@@ -26,11 +26,11 @@ pygmentsCodeFences = true
   custom_js  = []
 
 [params.social]
-  Github        = "kishaningithub"
-  Email         = "kishancs46@gmail.com"
-  Twitter       = "kishanbsh"
-  LinkedIn      = "kishancs46"
-  Stackoverflow = "users/3316017/kishan-b"
+  Github        = "rsrini7"
+  Email         = "7rsrini@gmail.com"
+  Twitter       = "rsrini_7"
+  LinkedIn      = "rsrini7"
+  Stackoverflow = "users/11617413/srini-r"
 
 ## Main Menu
 [[menu.main]]
@@ -52,4 +52,4 @@ pygmentsCodeFences = true
   name = "resume"
   identifier = "resume"
   weight = 400
-  url = "/resume/KishanB_Resume_2016.pdf"
+  url = "https://github.com/rsrini7/resume/raw/master/Srinivasan_Ragothaman_Resume.pdf"
