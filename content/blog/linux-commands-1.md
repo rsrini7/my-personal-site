@@ -24,12 +24,12 @@ ps -f 1
 
 ### Suspend & Restore the running process
 
-    Suspend the curr running process in forground : ctrl + z (equalent to below command)
-    Note: kill -20 means SUGTSTP
+    Suspend the current running process in foreground : ctrl + z (equivalent to below command)
+    Note: kill -20 means SUGTSTP and Stopped state
 ```bash
 kill -20 [pid]
 ```
-    To get process with hierarche:  
+    To get process with hierarchy:  
 ```bash
 ps f 
 ```    
@@ -37,12 +37,16 @@ ps f
     Column: STAT values::: 
       T -> suspended state 
       S -> Running state 
-	To see running jobs : 
+
+      
+Jobs
+
+    To see running jobs
 
 ```bash
 jobs
 ```
-    To restore the suspended process as forground : 
+    To restore the suspended process as foreground : 
 ```bash
 fg #it resume on current process, if only one job
 ```    
@@ -52,14 +56,15 @@ fg #it resume on current process, if only one job
 bg #it resume on current process, if only one job
 ```        
       
-    multiple jobs running in background and to bring frontground :
+    Multiple jobs running in background and to bring foreground :
 ```bash
 fg %{job_number} #jobs command will give job_number
 ```    
 
     Note: jobs shows + and - after job number.
-      it denotes, + means last job sent to bg and - means last to previous job sent to bg.
-      fg / bg : equalent to kill -18 [pid] . it means SIGCONT
+      '+' means last job sent to bg
+      '-' means last to previous job sent to bg
+      fg / bg : equivalent to kill -18 [pid] . '-18' means SIGCONT
 
 
 ### Kill
@@ -70,9 +75,10 @@ kill -l
 ```
 Kill Processes:
 
-    sends sigterm: 
+    sends sigterm: Terminated state in jobs queue
+    Gradual shutdown
 ```bash
-kill -15 [pid]  #default - witout number same
+kill -15 [pid]  #default - without number also same
 ```
 	sends sigint : 
 ```bash
@@ -82,7 +88,8 @@ kill -2 [pid]
 ```bash
 kill -1 [pid]
 ```      
-	sends sigkill : 
+	sends sigkill : force kill
+    Abrupt shutdown
 ```bash
 kill -9 [pid]
 ```      
